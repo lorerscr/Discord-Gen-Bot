@@ -25,7 +25,7 @@ bot.on("ready", () => {
 });
 
 bot.on("message", message => {
-    if (message.channel.id === "ChannelID") { //Channel_ID Botun Gen Yapacağı Kanalın ID
+    if (message.channel.id === "1263445419451486294") { //Channel_ID Botun Gen Yapacağı Kanalın ID
         if (message.author.bot) return;
         var command = message.content
             .toLowerCase()
